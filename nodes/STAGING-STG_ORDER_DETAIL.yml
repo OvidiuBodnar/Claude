@@ -1,0 +1,131 @@
+fileVersion: 1
+id: 94aee46a-6ed3-4fff-8c98-40495938de95
+name: STG_ORDER_DETAIL
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: STAGING
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 316f71f8-5c6e-4868-8c5d-9f206c8ab31d
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: ORDER_DETAIL_ID
+        nullable: false
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 588db25d-e7b8-4bfe-88bf-57df924f36fa
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: ORDER_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3cd3f914-371f-41c3-bef5-baeb68bf2831
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: MENU_ITEM_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bedc5089-297e-4ec2-9193-3f022cd5e7c7
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: DISCOUNT_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e0d7206-dee8-41b2-8271-5c66c84b0ed2
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: LINE_NUMBER
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03739dda-d548-4d3f-8f79-124cf1488d4d
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: QUANTITY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4318c2c9-271b-4550-a24f-fa41b7f05cf2
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: UNIT_PRICE
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a5fde90-b6ce-4cd3-95ba-580608456542
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: PRICE
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9fad8eaf-a9a9-4657-a8d0-ed05a804ba98
+          stepCounter: 94aee46a-6ed3-4fff-8c98-40495938de95
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: ORDER_ITEM_DISCOUNT_AMOUNT
+        nullable: true
+        sourceColumnReferences: []
+    cteString: ""
+    description: ""
+    destinationName: ""
+    enabledColumnTestIDs: []
+    materializationOption: ""
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.ORDER_DETAIL ORDER_DETAIL
+        name: STG_ORDER_DETAIL
+        noLinkRefs: []
+  name: STG_ORDER_DETAIL
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  table: STG_ORDER_DETAIL
+  type: sql
+  version: 1
+type: Node

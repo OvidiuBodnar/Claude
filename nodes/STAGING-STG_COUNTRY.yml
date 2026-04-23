@@ -1,0 +1,111 @@
+fileVersion: 1
+id: f0ecede8-2f39-426f-aa85-c57ff2189605
+name: STG_COUNTRY
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: STAGING
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a8ff098-c375-4cec-856b-868b597fca5b
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: COUNTRY_ID
+        nullable: false
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 78ce4848-d653-4272-8cf5-fcb612889611
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3dc1933-1f9b-48e6-866f-4f3f31d82951
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: ISO_CURRENCY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7ecdfe4-8818-4820-85ac-5295d8b171ac
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: ISO_COUNTRY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dc64acf6-d79a-43b5-ae90-bc4330b96d83
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: CITY_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0ad99f22-2339-4e57-a4ee-70ca4e7ad612
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65fdc3b3-c09f-406b-955b-307f95a1eb60
+          stepCounter: f0ecede8-2f39-426f-aa85-c57ff2189605
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: CITY_POPULATION
+        nullable: true
+        sourceColumnReferences: []
+    cteString: ""
+    description: ""
+    destinationName: ""
+    enabledColumnTestIDs: []
+    materializationOption: ""
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.COUNTRY COUNTRY
+        name: STG_COUNTRY
+        noLinkRefs: []
+  name: STG_COUNTRY
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  table: STG_COUNTRY
+  type: sql
+  version: 1
+type: Node

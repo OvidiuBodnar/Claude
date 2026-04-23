@@ -1,0 +1,181 @@
+fileVersion: 1
+id: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+name: STG_TRUCK
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: STAGING
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c3fa922-544d-4d78-a614-b58ed3872704
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: TRUCK_ID
+        nullable: false
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c48c0ef-8b35-46ec-bdd1-2509d1320f0c
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: MENU_TYPE_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 819b7188-3794-4e59-b3f6-d554643ed548
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: PRIMARY_CITY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a47c581-22f3-4fb2-ac15-a0dac985d1c0
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: REGION
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 846c077c-8151-46a6-b403-1fafc2fd46eb
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: ISO_REGION
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 99876205-6166-49da-93c2-4512546284df
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7781133a-6abb-40b1-8a66-0343d6866df8
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: ISO_COUNTRY_CODE
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 87f4ac52-4e50-4daf-b69c-d794625de2ea
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: FRANCHISE_FLAG
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bf8ad88d-8dde-438f-955b-f5c3a7ba3228
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: YEAR
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8665a68d-812e-4dd7-a66b-928cb4359ef2
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: MAKE
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0eeedf3-34c7-4e4d-9b55-98263622f4f1
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: MODEL
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc39deec-8e4b-4003-b3e0-105d50e4d997
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: EV_FLAG
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5883120b-b097-4e13-8642-08626e430d1c
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: FRANCHISE_ID
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 46c07b4a-414c-4589-9e39-e2265574d3d1
+          stepCounter: 15c78efb-a399-44ba-9ff2-f83afdedd7eb
+        config: {}
+        dataType: DATE
+        description: ""
+        name: TRUCK_OPENING_DATE
+        nullable: true
+        sourceColumnReferences: []
+    cteString: ""
+    description: ""
+    destinationName: ""
+    enabledColumnTestIDs: []
+    materializationOption: ""
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.TRUCK TRUCK
+        name: STG_TRUCK
+        noLinkRefs: []
+  name: STG_TRUCK
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  table: STG_TRUCK
+  type: sql
+  version: 1
+type: Node

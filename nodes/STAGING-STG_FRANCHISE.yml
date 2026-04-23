@@ -1,0 +1,111 @@
+fileVersion: 1
+id: c24151a1-c31e-436a-87b4-090b307ca12a
+name: STG_FRANCHISE
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: STAGING
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0d8a27ef-c3c2-4c34-8c80-e5cd48983135
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: FRANCHISE_ID
+        nullable: false
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ba2594f2-45a8-4771-9e09-5fada69c6f6b
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 333309ff-02ea-4aa9-8e13-9b04b0c400f9
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7306d0ba-f943-4a57-a0ff-49db5cf23063
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 568ff7e7-07f2-432b-85d4-f173b57e3249
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 56df9acb-0165-457a-b376-9256b502ddaf
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: E_MAIL
+        nullable: true
+        sourceColumnReferences: []
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bd8cd27b-5e2c-4d63-bc1b-22d604cda319
+          stepCounter: c24151a1-c31e-436a-87b4-090b307ca12a
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: PHONE_NUMBER
+        nullable: true
+        sourceColumnReferences: []
+    cteString: ""
+    description: ""
+    destinationName: ""
+    enabledColumnTestIDs: []
+    materializationOption: ""
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.FRANCHISE FRANCHISE
+        name: STG_FRANCHISE
+        noLinkRefs: []
+  name: STG_FRANCHISE
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  table: STG_FRANCHISE
+  type: sql
+  version: 1
+type: Node

@@ -1,8 +1,0 @@
-fileVersion: 1
-id: "37"
-mappingDefinitions:
-  SRC:
-    database: OBODNAR_DEV
-    schema: TASTY_BYTES
-name: Dev Environment
-type: Environment

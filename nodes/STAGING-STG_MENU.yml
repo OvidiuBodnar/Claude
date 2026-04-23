@@ -136,9 +136,10 @@ operation:
       - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - nodeID: c0a33333-3333-3333-3333-333333333303
         join:
-          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.MENU MENU
+          joinCondition: "FROM {{ ref('TASTY_BYTES', 'MENU') }} MENU"
         name: STG_MENU
         noLinkRefs: []
   name: STG_MENU

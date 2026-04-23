@@ -166,9 +166,10 @@ operation:
       - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - nodeID: c0a22222-2222-2222-2222-222222222202
         join:
-          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.TRUCK TRUCK
+          joinCondition: "FROM {{ ref('TASTY_BYTES', 'TRUCK') }} TRUCK"
         name: STG_TRUCK
         noLinkRefs: []
   name: STG_TRUCK

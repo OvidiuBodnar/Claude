@@ -96,9 +96,10 @@ operation:
       - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - nodeID: c0a44444-4444-4444-4444-444444444404
         join:
-          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.FRANCHISE FRANCHISE
+          joinCondition: "FROM {{ ref('TASTY_BYTES', 'FRANCHISE') }} FRANCHISE"
         name: STG_FRANCHISE
         noLinkRefs: []
   name: STG_FRANCHISE

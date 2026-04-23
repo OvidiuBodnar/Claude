@@ -96,9 +96,10 @@ operation:
       - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - nodeID: c0a11111-1111-1111-1111-111111111101
         join:
-          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_POS.COUNTRY COUNTRY
+          joinCondition: "FROM {{ ref('TASTY_BYTES', 'COUNTRY') }} COUNTRY"
         name: STG_COUNTRY
         noLinkRefs: []
   name: STG_COUNTRY

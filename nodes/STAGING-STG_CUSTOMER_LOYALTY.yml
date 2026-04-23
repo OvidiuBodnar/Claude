@@ -176,9 +176,10 @@ operation:
       - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies: []
+        dependencies:
+          - nodeID: c0a88888-8888-8888-8888-888888888808
         join:
-          joinCondition: FROM FROSTBYTE_TASTY_BYTES.RAW_CUSTOMER.CUSTOMER_LOYALTY CUSTOMER_LOYALTY
+          joinCondition: "FROM {{ ref('TASTY_BYTES', 'CUSTOMER_LOYALTY') }} CUSTOMER_LOYALTY"
         name: STG_CUSTOMER_LOYALTY
         noLinkRefs: []
   name: STG_CUSTOMER_LOYALTY

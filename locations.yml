@@ -3,3 +3,10 @@ fileVersion: 1
 locations:
   - SRC
   - STAGING
+  - BRONZE
+  - GOLD
+  - PUBLIC
+  - SILVER
+  - TARGET
+  - TASTY_BYTES
+  - WEATHER

@@ -1,3 +1,27 @@
-defaultStorageMapping: null
+defaultStorageMapping: BRONZE
 fileVersion: 1
-locations: []
+locations:
+  - name: BRONZE
+    database: OBODNAR_DEV
+    schema: BRONZE
+  - name: GOLD
+    database: OBODNAR_DEV
+    schema: GOLD
+  - name: PUBLIC
+    database: OBODNAR_DEV
+    schema: PUBLIC
+  - name: SILVER
+    database: OBODNAR_DEV
+    schema: SILVER
+  - name: STAGING
+    database: OBODNAR_DEV
+    schema: STAGING
+  - name: TARGET
+    database: OBODNAR_DEV
+    schema: TARGET
+  - name: TASTY_BYTES
+    database: OBODNAR_DEV
+    schema: TASTY_BYTES
+  - name: WEATHER
+    database: OBODNAR_DEV
+    schema: WEATHER

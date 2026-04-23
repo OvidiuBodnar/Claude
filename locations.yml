@@ -1,11 +1,11 @@
 defaultStorageMapping: SRC
 fileVersion: 1
 locations:
-  - SRC
   - BRONZE
   - GOLD
   - PUBLIC
   - SILVER
+  - SRC
   - STAGING
   - TARGET
   - TASTY_BYTES

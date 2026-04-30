@@ -1,0 +1,149 @@
+fileVersion: 1
+id: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+name: FRANCHISE
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TASTY_BYTES
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 94f7a43f-a3f9-4cb9-9c5c-e61507e3d90e
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: FRANCHISE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 009dd01e-290f-43cd-a63f-c19bc990d615
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b97f5e2c-ad7f-4c4c-868c-258f5c379caa
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0618964e-fec7-4adb-a518-acb413d6e002
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 720ebcb5-855b-43ad-b8b4-10b4e2963018
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COUNTRY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9090e5a8-64a3-4f9f-8ae6-3373d8cadca8
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: E_MAIL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51254676-0ed2-47d9-9b07-788219f13d55
+          stepCounter: d2bdbad1-725f-45f1-bb4e-c86b3b9f818e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PHONE_NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: FRANCHISE
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

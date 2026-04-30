@@ -1,0 +1,149 @@
+fileVersion: 1
+id: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+name: LOCATION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TASTY_BYTES
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: edc104b6-ca4a-455a-aa6d-1db5f8bebe29
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: NUMBER(19,0)
+        defaultValue: ""
+        description: ""
+        name: LOCATION_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbf064e6-5528-4b9f-aa50-2379bec87449
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PLACEKEY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a74994f9-8219-421e-8c2b-5eeb33638419
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: LOCATION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 719aebe7-ac50-493b-9e69-b4d81d64f305
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 423efc57-32eb-4d4d-a866-51a28850eac9
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: REGION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd395bcd-b113-40b1-ac08-3461540ddccd
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ISO_COUNTRY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a01d0332-cc40-498e-ae3f-cebb05a11ba9
+          stepCounter: ee13b11c-d875-4e7a-ae9f-0e128fbf5969
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COUNTRY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: LOCATION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

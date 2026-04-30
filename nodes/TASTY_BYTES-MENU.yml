@@ -1,0 +1,225 @@
+fileVersion: 1
+id: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+name: MENU
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TASTY_BYTES
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 572567e1-261b-435a-8aa8-ecdd2b7b3260
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: NUMBER(19,0)
+        defaultValue: ""
+        description: ""
+        name: MENU_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e5e9ba2-392b-4128-b765-719d031d4d7c
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: MENU_TYPE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa81e3db-01b7-41ab-ae2a-e122f8365a6f
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: MENU_TYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0e1fabd4-5534-4946-98fe-89779ef5bf23
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: TRUCK_BRAND_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c197e89c-04ec-4bbf-ad2c-1e7369124c28
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: MENU_ITEM_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c97841db-6701-4578-b8aa-f8e495b338fb
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: MENU_ITEM_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 34e27264-507c-4a75-8c6c-7e428f457e43
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ITEM_CATEGORY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fcd613b5-dae6-4add-bc52-ed1db0b75e04
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ITEM_SUBCATEGORY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55fc6574-1515-4b95-aad2-edd6791049c5
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: NUMBER(38,4)
+        defaultValue: ""
+        description: ""
+        name: COST_OF_GOODS_USD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a18063fd-4d8e-4afb-b30e-bce8d509e1f4
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: NUMBER(38,4)
+        defaultValue: ""
+        description: ""
+        name: SALE_PRICE_USD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d1569d94-73a0-4b1b-8929-83b6e3cb082d
+          stepCounter: f448d6a9-bf6f-4c1b-8e98-b3b3480d5be8
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: MENU_ITEM_HEALTH_METRICS_OBJ
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: MENU
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

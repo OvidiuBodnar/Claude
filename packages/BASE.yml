@@ -1,0 +1,28 @@
+config:
+  entities:
+    nodeTypes:
+      "173":
+        defaultStorageLocation: STAGING
+        isDisabled: false
+      "188":
+        defaultStorageLocation: TARGET
+        isDisabled: false
+      "194":
+        defaultStorageLocation: TARGET
+        isDisabled: false
+      "204":
+        defaultStorageLocation: STAGING
+        isDisabled: false
+      "205":
+        defaultStorageLocation: TARGET
+        isDisabled: false
+      "248":
+        defaultStorageLocation: TARGET
+        isDisabled: false
+  packageVariables: ""
+fileVersion: 1
+id: "@coalesce/snowflake/base-node-types"
+name: BASE
+packageID: "@coalesce/snowflake/base-node-types"
+releaseID: 11dbe8df-fc67-4c9c-9817-1c2c62862bfa
+type: Package
